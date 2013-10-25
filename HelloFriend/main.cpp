@@ -11,6 +11,9 @@
 int main(int argc, const char * argv[])
 {
 
+  for(int i=1;i<11;++i) {
+    std::cout << "Value of i is " << i << std::endl;
+  }
     // insert code here...
     std::cout << "Hello, my dear old Friend!" << std::endl;
     return 0;
